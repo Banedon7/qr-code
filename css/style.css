@@ -6,7 +6,7 @@
   --dark-blue: hsl(218, 44%, 22%);
 
   /* Font */
-  --outfit: 'Outfit', sans-serif;
+  --outfit: "Outfit", sans-serif;
 }
 
 *,
@@ -24,17 +24,23 @@ html {
   height: 100%;
 }
 
+body {
+  background-color: var(--light-gray);
+}
+
 .main {
   display: flex;
-  width: 95%;
-  height: 100%;
-  margin: 0 auto;
-  margin-left: 0.6rem;
-  background-color: greenyellow;
+  padding: 1rem 0;
+  border-radius: 1.2rem;
+  width: 85%;
+  height: 80vh;
+  margin-left: 1.73rem; 
+  background-color: var(--white);
   flex-direction: column;
 }
 
 .main__img {
   width: 90%;
   margin: 0 auto;
+  border-radius: 0.8rem;
 }
