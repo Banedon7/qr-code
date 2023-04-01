@@ -6,14 +6,21 @@
   padding: 0;
 }
 
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 .main {
   display: flex;
   width: 95%;
   height: 100%;
   margin: 0 auto;
   margin-left: 0.6rem;
-  flex-direction: column;
   background-color: greenyellow;
+  flex-direction: column;
 }
 
 .main__img {
