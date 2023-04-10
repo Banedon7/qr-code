@@ -44,3 +44,12 @@ body {
   margin: 0 auto;
   border-radius: 0.8rem;
 }
+
+.main__title {
+  font-family: var(--outfit);
+  color: var(--dark-blue);
+  text-align: center;
+  line-height: 1.8rem;
+  font-size: 1.45rem;
+  padding: 1.5rem 1rem 0 1rem;
+}
