@@ -33,7 +33,7 @@ body {
   padding: 1rem 0;
   border-radius: 1.2rem;
   width: 85%;
-  height: 70vh;
+  height: 70%;
   margin-left: 1.73rem; 
   background-color: var(--white);
   flex-direction: column;
@@ -52,4 +52,12 @@ body {
   line-height: 1.8rem;
   font-size: 1.45rem;
   padding: 1.5rem 1rem 0 1rem;
+}
+
+.main__paragraph {
+  font-family: var(--outfit);
+  color: var(--grayish-blue);
+  text-align: center;
+  font-size: 1.05rem;
+  padding: 1.4rem 1.5rem 0 1.5rem;
 }
