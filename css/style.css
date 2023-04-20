@@ -64,8 +64,15 @@ body {
 
 @media (min-width: 960px) and (max-width: 1328px) {
   .main {
-    width: 55%;
-    height: 70vh;
+    width: 30vw;
+    height: 65%;
     margin: 0 auto;
+  }
+  .main__title {
+    font-size: 1.7rem;
+    line-height: 1.25;
+  }
+  .main__paragraph {
+    font-size: 1.2rem;
   }
 }
