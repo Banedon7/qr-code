@@ -61,3 +61,11 @@ body {
   font-size: 1.02rem;
   padding: 1.4rem 1.5rem 2rem 1.7rem;
 }
+
+@media (min-width: 960px) and (max-width: 1328px) {
+  .main {
+    width: 55%;
+    height: 70vh;
+    margin: 0 auto;
+  }
+}
